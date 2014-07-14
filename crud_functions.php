@@ -22,11 +22,6 @@ function create_comment($comment, $user_id, $msg_id) {
 	run_mysql_query($query);
 }
 
-function read_users() {
-	$query = "SELECT * FROM users";
-	return fetch_all($query);
-}
-
 function read_user($email) {
 	$escEmail = escape_this_string($email);
 	$query = "SELECT * FROM users WHERE email = '{$escEmail}'";

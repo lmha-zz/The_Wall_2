@@ -73,6 +73,7 @@ if(isset($_POST['login'])) {
 			}
 		}
 	}
+	
 	if(isset($_SESSION['login_errors'])) {
 		header("Location: index.php");
 		die;
