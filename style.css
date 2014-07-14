@@ -1,0 +1,194 @@
+* {
+	font-family: arial;
+	margin:0;
+	padding:0;
+	color:#4c4c4c;
+}
+html {
+	min-height: 100%
+}
+body {
+	min-height:100%;
+	background-image: url(dark-background-pictures-17223-17779-hd-wallpapers.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+form label {
+	width: 300px;
+	display: block;
+	margin: 10px 0;
+}
+form input {
+	float: right;
+	padding: 5px 10px;
+	background-color: rgba(255,255,255, 0.8);
+	border:transparent;
+}
+input[type='submit'] {
+	color: dimgrey;
+	border:1px solid whitesmoke;
+	margin: 5px 0;
+	padding: 5px 20px;
+	background-color:rgba(255,255,255, 0.8);
+	float: none;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+h5 {
+	color: #6c6c6c;
+}
+.comment_actions_form input[type='submit'] {
+	color: silver;
+	font-size: 10px;
+}
+.welcome_msg {
+	vertical-align: top;
+	padding: 10px 20px 0 0;
+}
+.error {
+	color:red;
+	opacity: 0.7;
+}
+.success {
+	color:green;
+	opacity: 0.7;
+}
+.post_message_form_wrapper {
+	padding: 10px;
+}
+.post_message_form_wrapper textarea {
+	border:transparent;
+	width:616px;
+	height: 50px;
+	margin: 2px 0;
+	resize:none;
+	background-color:rgba(255,255,255, 0.9);
+	padding: 10px;
+	display: block;
+}
+.message_box {
+	background-color:rgba(255,255,255, 0.6);
+	margin: 30px 0 0 0;
+	padding: 10px;
+}
+.message_box:first-child {
+	margin: 0 0 0 0;
+}
+.message_box:last-child {
+	margin: 30px 0 0 0;
+}
+.author {
+	font-weight: bold;
+}
+.message_text {
+	padding: 5px 0;
+	font-size: 15.5px
+}
+.message_actions_form, .comment_actions_form {
+	text-align: right;
+}
+.comment_box {
+	padding: 10px;
+	border:1px dashed gainsboro;
+	border-bottom: none;
+}
+.comment_author {
+	color: #6c6c6c;	
+	font-weight: bold;
+	font-size: 12px;
+}
+.comment_text {
+	color: #6c6c6c;	
+	padding: 5px 0;
+	font-size: 14px
+}
+.post_comment_form_wrapper {
+	margin: 5px 0 0 0;
+	padding: 10px;
+	border:1px dashed gainsboro;
+}
+.post_comment_form_wrapper form {
+	text-align: right;
+}
+.post_comment_form_wrapper textarea {
+	width:575px;
+	border:transparent;
+	height: 50px;
+	margin: 2px 0;
+	resize:none;
+	background-color:rgba(255,255,255, 0.7);
+	padding: 10px;
+	display: block;
+}
+#body_wrapper {
+	width: 700px;
+	margin: 40px auto;
+}
+#login_wrapper, #register_wrapper {
+	margin: 20px auto;
+	width: 300px;
+}
+#login_wrapper form, #register_wrapper form {
+	padding: 10px;
+}
+#login_wrapper input[type='submit'] {
+	margin: 3px 0 0 79%;	
+}
+#register_wrapper input[type='submit'] {
+	margin: 3px 0 0 75%;	
+}
+#content_wrapper {
+	padding: 20px;
+}
+#content_wrapper #register_wrapper {
+	margin: 20px auto 20px auto;
+}
+#header_wrapper, #content_wrapper {
+	border:1px solid gainsboro;
+	background-color: rgba(255,255,255, 0.8);
+}
+#header_wrapper {
+	text-align: right;
+	height: 30px;
+	padding: 20px;
+	margin: 30px 0;
+}
+#header_wrapper h1 {
+	float: left;
+}
+#logoff_button {
+	float:right;
+	color: #4c4c4c;
+}
+#header_wrapper form, .welcome_msg, #header_wrapper h1 {
+	display: inline-block;
+}
+#header_wrapper form input {
+	border:none;
+	background-color: transparent;
+	font-size: 15px;
+	text-decoration: underline;
+}
+#messages_wrapper {
+	overflow: auto;
+	border:none;
+	height: 600px;
+	padding: 10px;
+}
+#post_msg_button {
+	margin: 3px 0 0 79%;	
+}
+#edit_message_form { 
+	text-align: right;
+}
+#edit_message_form textarea {
+	border:transparent;
+	width:638px;
+	height: 50px;
+	margin: 2px 0;
+	resize:none;
+	background-color:rgba(255,255,255, 0.9);
+	padding: 10px;
+	display: block;
+}
